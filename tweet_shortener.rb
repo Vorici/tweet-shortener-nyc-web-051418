@@ -18,6 +18,7 @@ end
 
 def word_substituter(tweet)
 
+<<<<<<< HEAD
     tweet.split(" ").map do |string|
       if dictionary.keys.include?(string.downcase)
         string = dictionary[string.downcase]
@@ -54,4 +55,9 @@ def shortened_tweet_truncator(tweet)
   else
     tweet
   end
+=======
+    tweet.split(" ").map do |word|
+    
+end.join(" ")
+>>>>>>> f7952cebc60240288dedf88f326ee3cb9e25c7b2
 end
